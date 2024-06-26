@@ -5,5 +5,5 @@ provider "aws" {
 
 resource "aws_instance" "exampleTFE" {
   ami           = "ami-04b70fa74e45c3917"
-  instance_type = "t2.large"
+  instance_type = "t2.micro"
 }
