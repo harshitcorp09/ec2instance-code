@@ -1,6 +1,4 @@
-terraform {
-  compact_warnings = true
-}
+
 # main.tf
 provider "aws" {
   region = "us-east-1"
