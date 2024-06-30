@@ -1,4 +1,3 @@
-
 terraform {
   compact_warnings = true
 }
