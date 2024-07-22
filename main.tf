@@ -8,7 +8,7 @@ resource "aws_instance" "exampleTFE" {
   instance_type = "t2.micro"
 } */
 variable "Color" {
-   default = white 
+   default = "white" 
 }
 provisioner "local-exec" {
     command = "echo ${Color}"
