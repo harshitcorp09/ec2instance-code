@@ -12,6 +12,6 @@ variable "Color" {
 }
 resource "null_resource" "null1" {
 provisioner "local-exec" {
-    command = "echo ${Color}"
+    command = "echo $Color"
   }
 }
