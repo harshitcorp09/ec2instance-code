@@ -10,6 +10,8 @@ resource "aws_instance" "exampleTFE" {
 variable "Color" {
    default = "white" 
 }
+resource "null_resource" "null1" {
 provisioner "local-exec" {
     command = "echo ${Color}"
   }
+}
