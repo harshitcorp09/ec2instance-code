@@ -15,4 +15,4 @@ provisioner "local-exec" {
     command = "echo $Color"
   }
 }
-#test
+
