@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "exampleTFEharshit" {
-  ami           = "ami-04b70fa74e45c3917"
+  ami           = "ami-0ad21ae1d0696ad58"
   instance_type = "t2.micro"
 }
 
